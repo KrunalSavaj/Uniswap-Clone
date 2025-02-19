@@ -1,0 +1,74 @@
+.Token {
+    margin-block: 5rem;
+}
+
+.Token_box {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.Token_box h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.Token_box_header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.Token_box_ethereum {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #1e1e1e;
+    padding: 0rem 2rem;
+    line-height: 0;
+    border-radius: 0.5rem;
+    color: #cff80b;
+    border: 1px solid #d1f80b53;
+}
+
+.Token_box_search {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #1e1e1e;
+    padding: 0.2rem 2rem;
+    line-height: 0;
+    border-radius: 0.5rem;
+    width: 50%;
+    border: 1px solid #b1f80b53;
+}
+
+.Token_box_search input {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    color: #cff80b;
+    width: 90%;
+}
+
+@media only screen and (max-width: 35em) {
+    .Token_box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .Token_box_header {
+        display: grid;
+    }
+
+    .Token_box_search {
+        padding: 0.5rem 2rem;
+        width: 100%;
+    }
+
+    .Token_box h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
